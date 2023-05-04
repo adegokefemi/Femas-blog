@@ -67,18 +67,12 @@
         margin-bottom: 10px;
     }
 
-    .topList {
-        margin-top: 10px;
-        flex-wrap: wrap;
-        /* flex-direction: column; */
-        align-items: center;
-    }  
-
     .topIcon{
         font-size: 20px;
-        margin: 5px;
+        margin: 3px;
         color: #444;
         cursor: pointer;
+        font-size: 12px;
     }
 
     .topSearchIcon {
@@ -87,6 +81,19 @@
 
     .topListItem {
        margin-top:4px;
+       font-size: 8px;
+    }
+
+    .topLeft, .topRight {
+        flex: 1;
+    }
+
+    .topCenter{
+       display: flex;
+    }
+
+    .topListItem {
+        margin-right: 15px;
     }
 
 }
